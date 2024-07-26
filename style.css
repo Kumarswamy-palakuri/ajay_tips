@@ -23,7 +23,7 @@
     align-items: center;
 }
 .links-a{
-    width: 400px;
+    min-width: 350px;
     text-align: center;
     background-color:rgb(246, 225, 209);
     margin: 4px;
@@ -32,9 +32,12 @@
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     padding: 2px;
+}
+.links a{
+    text-decoration: none;
 }
 .img-a{
     width: 50px;
